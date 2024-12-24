@@ -49,7 +49,7 @@ const Homepage = () => {
         }}
         setInput={setInput}
       />
-      <div className="picture">
+      <div className="pictures">
         {data &&
           data.map((d) => {
             return <Picture data={d} />;
